@@ -1,0 +1,12 @@
+App(
+    appid="RFID_Fuzzer",
+    name="RFID Fuzzer JJ",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="flipfrid_start",
+    requires=["gui", "storage", "dialogs", "input", "notification"],
+    stack_size=2 * 1024,
+    order=15,
+    fap_icon="rfid_10px.png",
+    fap_category="Apps JJ",
+    fap_icon_assets="images",
+)
